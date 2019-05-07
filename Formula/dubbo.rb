@@ -1,4 +1,4 @@
-class C2j < Formula
+class Dubbo < Formula
   desc "dubbo telnet wrapper"
   homepage "https://github.com/guxingke/dubbo-cli"
   url "https://github.com/guxingke/dubbo-cli/releases/download/1.0.0-SNAPSHOT/dubbo"
