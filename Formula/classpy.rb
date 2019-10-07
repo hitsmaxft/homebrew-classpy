@@ -14,7 +14,7 @@ class Classpy < Formula
 
     (bin/"classpy").write <<~EOS
       #!/usr/bin/env bash
-      exec java -jar #{prefix}/classpy-#{version}-complete.jar "$@"
+      exec java -jar #{prefix}/classpy-#{version}.jar "$@"
     EOS
   end
 end
